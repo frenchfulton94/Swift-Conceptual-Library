@@ -12,10 +12,34 @@
 		2486DB121FCE0092009ABD81 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2486DB111FCE0092009ABD81 /* Queue.swift */; };
 		2486DB1E1FCF564D009ABD81 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2486DB1D1FCF564D009ABD81 /* Tests.swift */; };
 		2486DB201FCF564D009ABD81 /* libSwift Conceptual Library.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 244BC7101FBF4B0E00C60AC5 /* libSwift Conceptual Library.dylib */; };
+		24D3CED4205F3B4A001929B5 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D3CED3205F3B4A001929B5 /* Stack.swift */; };
+		24D3CEDF2060A8E9001929B5 /* libSwift Conceptual Library.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 244BC7101FBF4B0E00C60AC5 /* libSwift Conceptual Library.dylib */; };
+		24F633F5205C2BAC00F63A77 /* Priority Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F633F4205C2BAC00F63A77 /* Priority Queue.swift */; };
+		24F633F7205F261400F63A77 /* Circular Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F633F6205F261400F63A77 /* Circular Buffer.swift */; };
+		24F633F9205F263E00F63A77 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F633F8205F263E00F63A77 /* Graph.swift */; };
+		24F633FB205F265500F63A77 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F633FA205F265500F63A77 /* Tree.swift */; };
+		24F633FD205F26DE00F63A77 /* B-Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F633FC205F26DE00F63A77 /* B-Tree.swift */; };
+		24F633FF205F26E700F63A77 /* Splay Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F633FE205F26E700F63A77 /* Splay Tree.swift */; };
+		24F63401205F26FC00F63A77 /* Red-Black Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F63400205F26FC00F63A77 /* Red-Black Tree.swift */; };
+		24F63403205F272F00F63A77 /* AVL Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F63402205F272F00F63A77 /* AVL Tree.swift */; };
+		24F63405205F274300F63A77 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F63404205F274300F63A77 /* Trie.swift */; };
+		24F63407205F274D00F63A77 /* Radix Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F63406205F274D00F63A77 /* Radix Tree.swift */; };
+		24F6340D205F277C00F63A77 /* Cartesian Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F6340C205F277C00F63A77 /* Cartesian Tree.swift */; };
+		24F6340F205F278500F63A77 /* KD Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F6340E205F278500F63A77 /* KD Tree.swift */; };
+		24F63411205F279700F63A77 /* 2-3 Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F63410205F279700F63A77 /* 2-3 Tree.swift */; };
+		24F63413205F279D00F63A77 /* 2-4 Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F63412205F279D00F63A77 /* 2-4 Tree.swift */; };
+		24F63415205F27B000F63A77 /* N-ary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F63414205F27B000F63A77 /* N-ary Tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		2486DB211FCF564D009ABD81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244BC7081FBF4B0E00C60AC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244BC70F1FBF4B0E00C60AC5;
+			remoteInfo = "Swift Conceptual Library";
+		};
+		24D3CEE02060A8E9001929B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 244BC7081FBF4B0E00C60AC5 /* Project object */;
 			proxyType = 1;
@@ -32,6 +56,23 @@
 		2486DB1B1FCF564C009ABD81 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2486DB1D1FCF564D009ABD81 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		2486DB1F1FCF564D009ABD81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D3CED3205F3B4A001929B5 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		24D3CEDA2060A8E9001929B5 /* Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F633F4205C2BAC00F63A77 /* Priority Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Priority Queue.swift"; sourceTree = "<group>"; };
+		24F633F6205F261400F63A77 /* Circular Buffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Circular Buffer.swift"; sourceTree = "<group>"; };
+		24F633F8205F263E00F63A77 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		24F633FA205F265500F63A77 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		24F633FC205F26DE00F63A77 /* B-Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "B-Tree.swift"; sourceTree = "<group>"; };
+		24F633FE205F26E700F63A77 /* Splay Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Splay Tree.swift"; sourceTree = "<group>"; };
+		24F63400205F26FC00F63A77 /* Red-Black Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Red-Black Tree.swift"; sourceTree = "<group>"; };
+		24F63402205F272F00F63A77 /* AVL Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVL Tree.swift"; sourceTree = "<group>"; };
+		24F63404205F274300F63A77 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		24F63406205F274D00F63A77 /* Radix Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Radix Tree.swift"; sourceTree = "<group>"; };
+		24F6340C205F277C00F63A77 /* Cartesian Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cartesian Tree.swift"; sourceTree = "<group>"; };
+		24F6340E205F278500F63A77 /* KD Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KD Tree.swift"; sourceTree = "<group>"; };
+		24F63410205F279700F63A77 /* 2-3 Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-3 Tree.swift"; sourceTree = "<group>"; };
+		24F63412205F279D00F63A77 /* 2-4 Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-4 Tree.swift"; sourceTree = "<group>"; };
+		24F63414205F27B000F63A77 /* N-ary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "N-ary Tree.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +91,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		24D3CED72060A8E9001929B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D3CEDF2060A8E9001929B5 /* libSwift Conceptual Library.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +106,22 @@
 			isa = PBXGroup;
 			children = (
 				2486DB111FCE0092009ABD81 /* Queue.swift */,
+				24F6340C205F277C00F63A77 /* Cartesian Tree.swift */,
+				24F6340E205F278500F63A77 /* KD Tree.swift */,
+				24F63410205F279700F63A77 /* 2-3 Tree.swift */,
+				24D3CED3205F3B4A001929B5 /* Stack.swift */,
+				24F63412205F279D00F63A77 /* 2-4 Tree.swift */,
+				24F63414205F27B000F63A77 /* N-ary Tree.swift */,
+				24F633F4205C2BAC00F63A77 /* Priority Queue.swift */,
+				24F633F6205F261400F63A77 /* Circular Buffer.swift */,
+				24F633F8205F263E00F63A77 /* Graph.swift */,
+				24F633FA205F265500F63A77 /* Tree.swift */,
+				24F633FC205F26DE00F63A77 /* B-Tree.swift */,
+				24F633FE205F26E700F63A77 /* Splay Tree.swift */,
+				24F63400205F26FC00F63A77 /* Red-Black Tree.swift */,
+				24F63402205F272F00F63A77 /* AVL Tree.swift */,
+				24F63404205F274300F63A77 /* Trie.swift */,
+				24F63406205F274D00F63A77 /* Radix Tree.swift */,
 			);
 			path = "Data Structures";
 			sourceTree = "<group>";
@@ -98,6 +163,7 @@
 			children = (
 				244BC7101FBF4B0E00C60AC5 /* libSwift Conceptual Library.dylib */,
 				2486DB1B1FCF564C009ABD81 /* Tests.xctest */,
+				24D3CEDA2060A8E9001929B5 /* Unit Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,13 +236,31 @@
 			productReference = 2486DB1B1FCF564C009ABD81 /* Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		24D3CED92060A8E9001929B5 /* Unit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D3CEE22060A8E9001929B5 /* Build configuration list for PBXNativeTarget "Unit Tests" */;
+			buildPhases = (
+				24D3CED62060A8E9001929B5 /* Sources */,
+				24D3CED72060A8E9001929B5 /* Frameworks */,
+				24D3CED82060A8E9001929B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24D3CEE12060A8E9001929B5 /* PBXTargetDependency */,
+			);
+			name = "Unit Tests";
+			productName = "Unit Tests";
+			productReference = 24D3CEDA2060A8E9001929B5 /* Unit Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		244BC7081FBF4B0E00C60AC5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0910;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Michael Fulton Jr.";
 				TargetAttributes = {
@@ -186,6 +270,10 @@
 					};
 					2486DB1A1FCF564C009ABD81 = {
 						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					24D3CED92060A8E9001929B5 = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -204,12 +292,20 @@
 			targets = (
 				244BC70F1FBF4B0E00C60AC5 /* Swift Conceptual Library */,
 				2486DB1A1FCF564C009ABD81 /* Tests */,
+				24D3CED92060A8E9001929B5 /* Unit Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2486DB191FCF564C009ABD81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D3CED82060A8E9001929B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,9 +319,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F63415205F27B000F63A77 /* N-ary Tree.swift in Sources */,
+				24F63403205F272F00F63A77 /* AVL Tree.swift in Sources */,
+				24F63405205F274300F63A77 /* Trie.swift in Sources */,
+				24F633FD205F26DE00F63A77 /* B-Tree.swift in Sources */,
+				24F633FF205F26E700F63A77 /* Splay Tree.swift in Sources */,
 				2486DB121FCE0092009ABD81 /* Queue.swift in Sources */,
+				24F633F9205F263E00F63A77 /* Graph.swift in Sources */,
+				24F63411205F279700F63A77 /* 2-3 Tree.swift in Sources */,
+				24F63413205F279D00F63A77 /* 2-4 Tree.swift in Sources */,
+				24F6340F205F278500F63A77 /* KD Tree.swift in Sources */,
+				24F633F5205C2BAC00F63A77 /* Priority Queue.swift in Sources */,
 				244BC71A1FBF4B4900C60AC5 /* Node.swift in Sources */,
+				24F633FB205F265500F63A77 /* Tree.swift in Sources */,
+				24F6340D205F277C00F63A77 /* Cartesian Tree.swift in Sources */,
 				244BC71B1FBF4B4900C60AC5 /* CollectionType.swift in Sources */,
+				24F63407205F274D00F63A77 /* Radix Tree.swift in Sources */,
+				24F63401205F26FC00F63A77 /* Red-Black Tree.swift in Sources */,
+				24D3CED4205F3B4A001929B5 /* Stack.swift in Sources */,
+				24F633F7205F261400F63A77 /* Circular Buffer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +349,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		24D3CED62060A8E9001929B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -244,6 +363,11 @@
 			isa = PBXTargetDependency;
 			target = 244BC70F1FBF4B0E00C60AC5 /* Swift Conceptual Library */;
 			targetProxy = 2486DB211FCF564D009ABD81 /* PBXContainerItemProxy */;
+		};
+		24D3CEE12060A8E9001929B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244BC70F1FBF4B0E00C60AC5 /* Swift Conceptual Library */;
+			targetProxy = 24D3CEE02060A8E9001929B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -408,6 +532,37 @@
 			};
 			name = Release;
 		};
+		24D3CEE32060A8E9001929B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RM253QV824;
+				INFOPLIST_FILE = "Unit Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "frenchfultonjr.Unit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		24D3CEE42060A8E9001929B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RM253QV824;
+				INFOPLIST_FILE = "Unit Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "frenchfultonjr.Unit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -434,6 +589,15 @@
 			buildConfigurations = (
 				2486DB241FCF564D009ABD81 /* Debug */,
 				2486DB251FCF564D009ABD81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D3CEE22060A8E9001929B5 /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D3CEE32060A8E9001929B5 /* Debug */,
+				24D3CEE42060A8E9001929B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
